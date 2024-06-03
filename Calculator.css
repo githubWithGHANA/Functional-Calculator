@@ -1,1 +1,70 @@
-Calculator.css
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, #0a0a0a,#575e69);
+}
+
+#calculator
+{
+/* border: 1.5px solid rgb(156, 108, 108); */
+border-radius: 5px;
+width: 250px; 
+cursor: pointer;
+box-shadow: 0px 3px 15px/* rgba(113,115,119,0.5); */
+
+}
+
+#display
+{
+font-family:'Franklin Gothic Medium', 'Arial Narrow';
+margin: 10px;
+width: 85%;
+font-size: 25px;
+text-align: right;
+box-shadow: 25px;
+background-color: rgba(178, 203, 234, 0.843);
+border-radius: 5px;
+box-shadow: 0px 3px 15px
+}
+
+.button-containor
+{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content:center;
+  left: 10px;
+
+}
+
+.button
+{
+  font-size: medium;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  cursor: pointer;
+  color:rgb(0, 255, 17);
+  /* background-color: transparent; */
+ box-shadow: 0px 3px 5px 2px;/* rgba(113,115,119);  */
+
+  background-color:transparent;
+}
+
+.buttonn
+{
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  cursor: pointer;
+  /* background-color: transparent; */
+ box-shadow: 0px 3px 15px ;/* rgba(113,115,119);  */
+  color:aqua;
+  background-color: transparent;
+}
